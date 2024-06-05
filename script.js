@@ -1,4 +1,5 @@
-const wordList = ["apple", "banana", "cat", "dog", "elephant", "zebra", ... (your list of valid words)]; // Replace with your word list
+const wordList = document.getElementById("words").innerHTML.split("\n");
+
 const player1Input = document.getElementById("player1-input");
 const player2Input = document.getElementById("player2-input");
 const submitBtn = document.getElementById("submit-btn");

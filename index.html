@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Chain Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Word Chain Game</h1>
+  <div id="game-container">
+    <p>Player 1: Enter your starting word (at least 3 letters):</p>
+    <input type="text" id="player1-input" disabled>
+    <p id="player2-prompt">Player 2: Your turn (must start with <span id="last-letters"></span>):</p>
+    <input type="text" id="player2-input">
+    <button id="submit-btn">Submit Word</button>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
